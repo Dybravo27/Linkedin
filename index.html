@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Linkedin</title>
   <link rel="stylesheet" href="Css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="shortcut icon" href="imagenes/logo_linkedin.png" type="image/x-icon">
 </head>
+
 <body class="linkedin">
   <header class="header">
     <div class="header__container container">
@@ -58,68 +60,118 @@
           <div class="perfil">
             <div class="perfil__contenedor">
               <a href="#perfil-menu-contenedor">
-                <img class="perfil__img" src="imagenes/foto_perfil.jpg" alt="foto_perfil">
+                <img class="perfil__img" src="imagenes/foto_perfil.png" alt="foto_perfil">
               </a>
             </div>
             <!-- perfil menu desplegable -->
-             <div class="perfil-menu" id="perfil-menu-contenedor">
+            <div class="perfil-menu" id="perfil-menu-contenedor">
               <div class="perfil-menu-contenedor">
                 <div class="perfil-menu-info">
-                  <img class="perfil-menu__img" src="imagenes/foto_perfil.jpg" alt="foto_perfil">
+                  <img class="perfil-menu-info__img" src="imagenes/foto_perfil.png" alt="foto_perfil">
                   <div class="perfil-menu-contenido">
-                    <h3 class="perfil-menu__nombre">Rayan Walton</h3>
-                    <a class="perfil-menu__enlace" href="#">Seeyour profile</a>
+                    <h3 class="perfil-menu-contenido__nombre">Rayan Walton</h3>
+                    <a class="perfil-menu-contenido__enlace" href="#">Seeyour profile</a>
                   </div>
                 </div>
-                <hr class="perfil-menu-linea_separador">
+                <hr class="perfil-menu-contenedor__linea_separador">
                 <a href="#" class="perfil-menu-link">
-                  <div class="perfil-menu__icono">
+                  <div class="perfil-menu-link__icono">
                     <i class="ri-feedback-fill"></i>
                   </div>
-                  <p class="perfil-menu__texto">Give Feebdack</p>
-                  <span class="perfil-menu__flecha">></span>
+                  <p class="perfil-menu-link__texto">Give Feebdack</p>
+                  <span class="perfil-menu-link__flecha">></span>
                 </a>
                 <a href="#" class="perfil-menu-link">
-                  <div class="perfil-menu__icono">
+                  <div class="perfil-menu-link__icono">
                     <i class="ri-settings-4-fill"></i>
                   </div>
-                  <p class="perfil-menu__texto">Setting & Privacy</p>
-                  <span class="perfil-menu__flecha">></span>
+                  <p class="perfil-menu-link__texto">Setting & Privacy</p>
+                  <span class="perfil-menu-link__flecha">></span>
                 </a>
                 <a href="#" class="perfil-menu-link">
-                  <div class="perfil-menu__icono">
+                  <div class="perfil-menu-link__icono">
                     <i class="ri-question-fill"></i>
                   </div>
-                  <p class="perfil-menu__texto">Help & Support</p>
-                  <span class="perfil-menu__flecha">></span>
+                  <p class="perfil-menu-link__texto">Help & Support</p>
+                  <span class="perfil-menu-link__flecha">></span>
                 </a>
                 <a href="#" class="perfil-menu-link">
-                  <div class="perfil-menu__icono">
+                  <div class="perfil-menu-link__icono">
                     <i class="ri-moon-fill"></i>
                   </div>
-                  <p class="perfil-menu__texto">Display & Accessiblity</p>
-                  <span class="perfil-menu__flecha">></span>
+                  <p class="perfil-menu-link__texto">Display & Accessiblity</p>
+                  <span class="perfil-menu-link__flecha">></span>
                 </a>
                 <a href="#" class="perfil-menu-link">
-                  <div class="perfil-menu__icono">
+                  <div class="perfil-menu-link__icono">
                     <i class="ri-logout-box-r-fill"></i>
                   </div>
-                  <p class="perfil-menu__texto">Logout</p>
-                  <span class="perfil-menu__flecha">></span>
+                  <p class="perfil-menu-link__texto">Logout</p>
+                  <span class="perfil-menu-link__flecha">></span>
                 </a>
               </div>
-             </div>
+            </div>
           </div>
         </nav>
       </div>
-    </header>
-    <div class="content-layout container">
-      <aside class="sidebar">
-        <div class="sidebar-caja-perfil">
-          <img class="sidebar__img-fondo" src="imagenes/fondo_caja_perfil.png" alt="foto_perfil">
+    </div>
+  </header>
+  <!-- Layout -->
+  <div class="content-layout container">
+    <!-- Left Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-perfil">
+        <img class="sidebar_fondo-img" src="imagenes/fondo_caja_perfil.png" alt="foto_perfil">
+        <div class="sidebar-perfil-info">
+          <img class="sidebar-perfil-info__foto-perfil" src="imagenes/foto_perfil.png" alt="foto_perfil">
+          <h1 class="sidebar-perfil-info__nombre">Dylan Bravo</h1>
+          <h3 class="sidebar-perfil-info__titulo">Web Developer</h3>
+          <ul class="sidebar-perfil-info__views">
+            <li class="sidebar-perfil-info__item">Your profile views
+              <span class="sidebar-perfil-info__value">52</span>
+            </li>
+            <li class="sidebar-perfil-info__item">Your post views
+              <span class="sidebar-perfil-info__value">820</span>
+            </li>
+            <li class="sidebar-perfil-info__item">Your connections
+              <span class="sidebar-perfil-info__value">210</span>
+            </li>
+          </ul>
         </div>
-      </aside>
-    </div>
-    </div>
+        <div class="sidebar-perfil-link">
+          <a href="#" class="sidebar-perfil-link__enlace">
+            <i class="ri-bookmark-fill sidebar-perfil-link__icono"></i>
+            My items
+          </a>
+          <a href="#" class="sidebar-perfil-link__enlace">
+            <i class="ri-ticket-2-fill sidebar-perfil-link__icono sidebar-perfil-link__icono--ticket"></i>
+            Try Premium
+          </a>
+        </div>
+      </div>
+      <div class="sidebar-activity">
+        <h3>RECENT</h3>
+        <a href="#"><i class='bx bx-time'></i> Web Developer </a>
+        <a href="#"><i class='bx bx-time'></i> User Interface </a>
+        <a href="#"><i class='bx bx-time'></i> Online Learning </a>
+        <a href="#"><i class='bx bx-time'></i> Learn Online </a>
+        <a href="#"><i class='bx bx-time'></i> Code Better </a>
+        <a href="#"><i class='bx bx-time'></i> Group Learning </a>
+        <h3>GROUPS</h3>
+        <a href="#"><i class='bx bx-male-female'></i> Web Desing Groups </a>
+        <a href="#"><i class='bx bx-male-female'></i> HTML & CSS Learners </a>
+        <a href="#"><i class='bx bx-male-female'></i> Python & JavaScript Group </a>
+        <a href="#"><i class='bx bx-male-female'></i> Learn Coding Online </a>
+        <h3>HASHTAG</h3>
+        <a href="#"><i class='bx bx-hash'></i> webdevelopment </a>
+        <a href="#"><i class='bx bx-hash'></i> userinterface </a>
+        <a href="#"><i class='bx bx-hash'></i> onlinelearning </a>
+        <div>
+          <a href="#">Discover more</a>
+        </div>
+      </div>
+    </aside>
+  </div>
 </body>
+
 </html>

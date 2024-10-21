@@ -125,8 +125,7 @@
     height: max-content;
     background-color: #333;
     transition: all 0.8s ease-in-out;
-  }
-  
+  }  
   .perfil-menu:target{
     top: 100%;
   }
@@ -137,22 +136,22 @@
     display: flex;
     align-items: center;
   }
-  .perfil-menu__img{
+  .perfil-menu-info__img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-right: 15px;
   }
-  .perfil-menu__nombre{
+  .perfil-menu-contenido__nombre{
     color: #fff;
     font-weight: 500;
   }
-  .perfil-menu__enlace{
+  .perfil-menu-contenido__enlace{
     text-decoration: none;
     font-size: 13px;
     color: #c9dbf8;
   }
-  .perfil-menu-linea_separador{
+  .perfil-menu-contenedor__linea_separador{
     border: 0;
     height: 2px;
     width: 100%;
@@ -167,7 +166,7 @@
     color: #fff;
     margin: 12px 0;
   }
-  .perfil-menu__icono{
+  .perfil-menu-link__icono{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,6 +178,6 @@
     color: #525252;
     margin-right: 15px;
   }
-  .perfil-menu__texto{
+  .perfil-menu-link__texto{
     width: 100%;
   }

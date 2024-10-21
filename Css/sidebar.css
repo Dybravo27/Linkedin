@@ -10,12 +10,73 @@
 .sidebar{
   grid-area: sidebar;
 }
-.sidebar-caja-perfil{
+.sidebar-perfil{
   background-color: #fff;
-  height: 300px;
+  height: 325px;
   width: 100%;
 }
-.sidebar__img-fondo{
+.sidebar_fondo-img{
   width: 100%;
-  height: 100px;
+  height: 85px;
 }
+.sidebar-perfil-info{
+  padding: 0 25px;
+}
+.sidebar-perfil-info__foto-perfil{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: -40px;
+  padding: 4px;
+  background-color: #fff;
+}
+.sidebar-perfil-info__nombre{
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+.sidebar-perfil-info__titulo{
+  font-size: 14px;
+  color: #777;
+  font-weight: 500;
+}
+.sidebar-perfil-info__views{
+  list-style: none;
+  margin: 15px 0;
+}
+.sidebar-perfil-info__item{
+  width: 100%;
+  font-size: 13px;
+  color: #5f5f5f;
+}
+.sidebar-perfil-info__value{
+  color: #2874b1;
+  float: right;
+}
+/* --------------------------- */
+.sidebar-perfil-link{
+  display: flex;
+  align-items: center;
+  border-top: 2px solid #ccc;
+}
+.sidebar-perfil-link__enlace{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 15px 0;
+  font-size: 13px;
+  color: #5f5f5f;
+  border-right: 2px solid #ccc;
+}
+.sidebar-perfil-link__icono{
+  color: #045be6;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.sidebar-perfil-link__icono--ticket{
+  color: #ea9900;
+  font-size: 20px;
+  border: none;
+}
+/* --------------------------------------- */
