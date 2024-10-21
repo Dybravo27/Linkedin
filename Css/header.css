@@ -94,12 +94,91 @@
     font-size: 0.9rem;
   }
   /* contenedor del profile */
-
-  .profile__img{
+  .perfil__img{
     border-radius: 50%;
     width: 32px;
     height: 32px;
     display: block;
     margin-left: 20px;
     cursor: pointer;
+  }
+  .perfil__contenedor{
+    position: relative;
+  }
+  .perfil__contenedor::after{
+    content: " ";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #41db51;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  /* perfil menu desplegable */
+  .perfil-menu{
+    position: absolute;
+    top: -500px;
+    right: 400px;
+    width: 300px;
+    height: max-content;
+    background-color: #333;
+    transition: all 0.8s ease-in-out;
+  }
+  
+  .perfil-menu:target{
+    top: 100%;
+  }
+  .perfil-menu-contenedor{
+    padding: 20px;
+  }
+  .perfil-menu-info{
+    display: flex;
+    align-items: center;
+  }
+  .perfil-menu__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .perfil-menu__nombre{
+    color: #fff;
+    font-weight: 500;
+  }
+  .perfil-menu__enlace{
+    text-decoration: none;
+    font-size: 13px;
+    color: #c9dbf8;
+  }
+  .perfil-menu-linea_separador{
+    border: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin: 15px 0 12px;
+  }
+  .perfil-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    margin: 12px 0;
+  }
+  .perfil-menu__icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #e4e6eb;
+    font-size: 20px;
+    color: #525252;
+    margin-right: 15px;
+  }
+  .perfil-menu__texto{
+    width: 100%;
   }

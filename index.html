@@ -55,15 +55,71 @@
               </a>
             </li>
           </ul>
-          <div class="profile">
-            <div class="profile__contenedor">
-              <img class="profile__img" src="imagenes/foto_perfil.jpg" alt="foto_perfil">
+          <div class="perfil">
+            <div class="perfil__contenedor">
+              <a href="#perfil-menu-contenedor">
+                <img class="perfil__img" src="imagenes/foto_perfil.jpg" alt="foto_perfil">
+              </a>
             </div>
+            <!-- perfil menu desplegable -->
+             <div class="perfil-menu" id="perfil-menu-contenedor">
+              <div class="perfil-menu-contenedor">
+                <div class="perfil-menu-info">
+                  <img class="perfil-menu__img" src="imagenes/foto_perfil.jpg" alt="foto_perfil">
+                  <div class="perfil-menu-contenido">
+                    <h3 class="perfil-menu__nombre">Rayan Walton</h3>
+                    <a class="perfil-menu__enlace" href="#">Seeyour profile</a>
+                  </div>
+                </div>
+                <hr class="perfil-menu-linea_separador">
+                <a href="#" class="perfil-menu-link">
+                  <div class="perfil-menu__icono">
+                    <i class="ri-feedback-fill"></i>
+                  </div>
+                  <p class="perfil-menu__texto">Give Feebdack</p>
+                  <span class="perfil-menu__flecha">></span>
+                </a>
+                <a href="#" class="perfil-menu-link">
+                  <div class="perfil-menu__icono">
+                    <i class="ri-settings-4-fill"></i>
+                  </div>
+                  <p class="perfil-menu__texto">Setting & Privacy</p>
+                  <span class="perfil-menu__flecha">></span>
+                </a>
+                <a href="#" class="perfil-menu-link">
+                  <div class="perfil-menu__icono">
+                    <i class="ri-question-fill"></i>
+                  </div>
+                  <p class="perfil-menu__texto">Help & Support</p>
+                  <span class="perfil-menu__flecha">></span>
+                </a>
+                <a href="#" class="perfil-menu-link">
+                  <div class="perfil-menu__icono">
+                    <i class="ri-moon-fill"></i>
+                  </div>
+                  <p class="perfil-menu__texto">Display & Accessiblity</p>
+                  <span class="perfil-menu__flecha">></span>
+                </a>
+                <a href="#" class="perfil-menu-link">
+                  <div class="perfil-menu__icono">
+                    <i class="ri-logout-box-r-fill"></i>
+                  </div>
+                  <p class="perfil-menu__texto">Logout</p>
+                  <span class="perfil-menu__flecha">></span>
+                </a>
+              </div>
+             </div>
           </div>
         </nav>
       </div>
     </header>
-    <div class="content-layout container"></div>
+    <div class="content-layout container">
+      <aside class="sidebar">
+        <div class="sidebar-caja-perfil">
+          <img class="sidebar__img-fondo" src="imagenes/fondo_caja_perfil.png" alt="foto_perfil">
+        </div>
+      </aside>
+    </div>
     </div>
 </body>
 </html>
