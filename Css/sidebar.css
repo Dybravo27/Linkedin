@@ -124,7 +124,48 @@
   font-size: 13px;
   color: #2874b1;
   transition: all 0.8s;
+  font-weight: 500;
 }
 .discover-more__enlace:hover{
   background-color: #d1e3f8;
+}
+
+/* inicio del main content */
+.main{
+  grid-area: main;
+}
+.create-post{
+  background-color: #fff;
+}
+.create-post-publish{
+  display: flex;
+  align-items: flex-start;
+  padding: 25px 20px 20px;
+}
+.create-post-publish__img{
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.create-post-publish__textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  font-weight: 500;
+  margin-top: 8px;
+  resize: vertical;
+}
+/*  */
+.create-post-choices{
+  border-top: 2px solid #ccc;
+}
+.create-post-link{
+  text-decoration: none;
+  color: #222;
+  font-size: 15px;
+  border-right: 2px solid #ccc;
+}
+.create-post-link__icono{
+  color: #2874b1;
+  font-size: 1.4rem;
 }
